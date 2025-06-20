@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main img {
+  max-width: 100%;
+  box-shadow: 0 0 4px rgba(0,0,0,0.15);
+}
+
+.pepe-gif {
+  display: block;
+  margin: 20px auto 0;
+  max-width: 50%;
+}

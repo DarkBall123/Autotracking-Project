@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Трекинг Итоговая Работа</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
+</head>
+<body>
+  <main>
+    <img src="{{ url_for('video_feed') }}" alt="video stream">
+
+    <img src="{{ url_for('static', path='pepe-tea.gif') }}"
+         alt="Pepe GIF"
+         class="pepe-gif">
+  </main>
+</body>
+</html>
