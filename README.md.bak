@@ -1,3 +1,0 @@
-Автотрекинг с использованием Yolov11-nano и FastAPI.
-
-Запуск из терминала: uvicorn main:app --reload
